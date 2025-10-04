@@ -4,7 +4,7 @@
 **License**: GNU General Public License v3 (GPL-3.0)
 **Compatible with**: Linux Mint (Cinnamon)
 **Author**: DrMcC0y
-**Version**: 1.0.0
+**Version**: 1.0.1
 **Based on**: Mint-Y-Dark-Aqua
 
 ---
@@ -15,7 +15,7 @@ Cool-Mint-Breeze is a GTK theme for Linux Mint (Cinnamon edition), based on the 
 
 To complete the visual experience, it's highly recommended to use it together with the **Cool-Mint-Breeze-Icons** icon set:
 
-> 🔗 [Cool-Mint-Breeze-Icons](https://www.pling.com/p/2302176/)
+> 🔗 [Cool-Mint-Breeze-Icons](https://www.pling.com/p/2322582/)
 
 ---
 
