@@ -1809,28 +1809,28 @@ StScrollBar {
   font-weight: bold;
   padding: 12px;
   border-radius: 18px;
-  border: 1px solid #2b2f34;
+  border: 1px solid #303f44;
   color: #e1e1e1;
-  background-color: #2b2f34; }
+  background-color: #303f44; }
   .dialog .dialog-button:focus {
-    border: 1px solid #2b2f34;
+    border: 1px solid #303f44;
     color: #e1e1e1;
-    background-color: #2b2f34;
+    background-color: #303f44;
     border: 1px solid #797987; }
   .dialog .dialog-button:hover {
-    border: 1px solid #2b2f34;
+    border: 1px solid #303f44;
     color: #e1e1e1;
-    background-color: #494951; }
+    background-color: #435b63; }
   .dialog .dialog-button:active {
-    border: 1px solid #2b2f34;
+    border: 1px solid #303f44;
     color: #e1e1e1;
     background-color: #3c3c44; }
   .dialog .dialog-button:checked {
-    border: 1px solid #2b2f34;
+    border: 1px solid #303f44;
     color: #e1e1e1;
     background-color: #3c3c44; }
   .dialog .dialog-button:insensitive {
-    border: 1px solid #2b2f34;
+    border: 1px solid #303f44;
     color: rgba(225, 225, 225, 0.5);
     background-color: #29292e; }
 
@@ -1856,8 +1856,8 @@ StScrollBar {
     color: #e1e1e1;
     background-color: #34a8e3; }
   .dialog .dialog-button:insensitive:default {
-    border-color: #2b2f34;
-    border: 1px solid #2b2f34;
+    border-color: #303f44;
+    border: 1px solid #303f44;
     color: rgba(225, 225, 225, 0.5);
     background-color: #29292e; }
 
@@ -1883,15 +1883,15 @@ StScrollBar {
     color: #e1e1e1;
     background-color: #d61f2d; }
   .dialog .dialog-button:insensitive:destructive-action {
-    border-color: #2b2f34;
-    border: 1px solid #2b2f34;
+    border-color: #303f44;
+    border: 1px solid #303f44;
     color: rgba(225, 225, 225, 0.5);
     background-color: #29292e; }
 
 .dialog {
   background-color: #162430;
   border-radius: 18px;
-  border: 1px solid #2b2f34;
+  border: 1px solid #303f44;
   padding: 18px; }
   .dialog .dialog-content-box {
     margin-top: 8px;
@@ -1993,7 +1993,7 @@ StScrollBar {
 
 .workspace-switch-osd, .info-osd, .media-keys-osd {
   background-color: #162430;
-  border: 1px solid #2b2f34;
+  border: 1px solid #303f44;
   border-radius: 20px;
   text-align: center;
   padding: 24px; }
@@ -2015,7 +2015,7 @@ StScrollBar {
   .media-keys-osd .level {
     min-width: 160px;
     -barlevel-height: 6px;
-    -barlevel-background-color: #2b2f34;
+    -barlevel-background-color: #303f44;
     -barlevel-active-background-color: #e1e1e1;
     -barlevel-amplify-color: #F27835;
     -barlevel-amplify-separator-width: 3px; }
