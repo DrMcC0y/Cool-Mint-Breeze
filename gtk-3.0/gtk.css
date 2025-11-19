@@ -14,8 +14,8 @@
 @define-color scrollbar_slider_nemo_through @pathbar_color;  /* slider through darker side */
 @define-color scrollbar_slider_nemo_border #343f4a; /* border color of slider scale dot in nemo explorer */
 @define-color scrollbar_slider_nemo_not_sliding_not_hovering  rgba(74, 96, 102, 0.91); /* bg color of slider in nemo explorer when you don't drag or hover*/
-@define-color wallpaper_manager_button_inactive_group_bg  #142025; /* in wallpaper manager there is an add/remove button */
-@define-color wallpaper_manager_button_inactive  #353c40; /* color of inactive (e.g.remove) button*/
+@define-color wallpaper_manager_button_inactive #353c40; /* color of inactive (e.g.remove) button*/
+/* @define-color wallpaper_manager_button_inactive_group_bg  #142025;*/ /* in wallpaper manager there is an add/remove button */
 
 
 * {
@@ -787,7 +787,7 @@ toolbar, .inline-toolbar {
   border-image: linear-gradient(to bottom, @dark_gray_main, #0d0d0d) 1 0 1 0; }
 
 .inline-toolbar {
-  background-color: @wallpaper_manager_button_inactive_group_bg;
+  background-color: @theme_base_color;
   border-style: solid;
   border-color: @border_dark;
   border-width: 0 1px 1px;
@@ -804,7 +804,7 @@ searchbar {
 actionbar {
   padding: 6px;
   border-top: 1px solid @border_dark;
-  background-color: @wallpaper_manager_button_inactive_group_bg; }
+  background-color: @theme_base_color; }
 
 headerbar,
 .titlebar:not(headerbar) {
@@ -3245,7 +3245,7 @@ NautilusQueryEditor .search-bar.toolbar {
     background-color: rgba(31, 158, 222, 0.8);
     border-color: rgba(25, 126, 177, 0.8); }
   .disk-space-display.free {
-    background-color: @wallpaper_manager_button_inactive_group_bg;
+    background-color: @theme_base_color;
     border-color: #171717; }
 
 NautilusListView .view, NautilusListView iconview {
